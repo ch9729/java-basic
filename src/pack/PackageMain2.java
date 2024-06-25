@@ -1,0 +1,18 @@
+package pack;
+
+import pack.a.User;
+import pack.a.User2;
+
+//pack.a. 안에 있는 모든 클래스를 사용하려면 *로도 접근 가능
+//import pack.a.*;
+
+
+public class PackageMain2 {
+
+    public static void main(String[] args) {
+        Data data= new Data();
+
+        User user = new User();     //import 사용으로 패키지 명 생략 가능
+        User2 user2 = new User2();
+    }
+}
